@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yield_Course", "Yield_Course\Yield_Course.csproj", "{44E0F8C5-EB7F-4AE8-A80A-0C074532D371}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryCache_Course", "MemoryCache_Course\MemoryCache_Course.csproj", "{FFA42BA7-0C3E-4399-89D9-E1D514987C70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{44E0F8C5-EB7F-4AE8-A80A-0C074532D371}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44E0F8C5-EB7F-4AE8-A80A-0C074532D371}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44E0F8C5-EB7F-4AE8-A80A-0C074532D371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA42BA7-0C3E-4399-89D9-E1D514987C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA42BA7-0C3E-4399-89D9-E1D514987C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA42BA7-0C3E-4399-89D9-E1D514987C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA42BA7-0C3E-4399-89D9-E1D514987C70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
