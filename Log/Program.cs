@@ -13,10 +13,10 @@ namespace Log
         static void Main(string[] args)
         {
             var nLog = new NLog();
-            nLog.SayHello();
+            //nLog.SayHello();
 
             var log4Net = new Log4Net();
-            //log4Net.SayHello();
+            log4Net.SayHello();
         }
     }
 }
