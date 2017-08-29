@@ -7,13 +7,13 @@ using Common.Logging;
 
 namespace Log
 {
-    class Program
+    public class Class1
     {
+        private ILog log = LogManager.GetLogger<Class1>();
 
-        static void Main(string[] args)
+        public void SayHello()
         {
-            var c = new Class1();
-            c.SayHello();
+            this.log.Info("Hello");
         }
     }
 }
