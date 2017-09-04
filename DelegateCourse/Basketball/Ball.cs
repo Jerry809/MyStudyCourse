@@ -19,6 +19,7 @@ namespace DelegateCourse
             if (BallInPlay != null)
             {
                 BallInPlay(this, e);
+
             }
         }
     }
