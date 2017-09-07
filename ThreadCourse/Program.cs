@@ -22,6 +22,7 @@ namespace ThreadCourse
             }
             Task.WaitAll(tasks.ToArray());
 
+
             Console.WriteLine($"income = {oper.GetIncome()}");
             Console.ReadLine();
         }
