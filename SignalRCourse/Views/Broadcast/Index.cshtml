@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Boardcast";
+}
+
+<h2>Boardcast</h2>
+<div>
+    <input type="text" id="name" value="" />
+    <input type="text" id="message" value="" />
+    <input type="button" id="sendmessage" value="" />
+</div>
+
+<head>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.signalR-2.2.2.js"></script>
+    <script src="~/signalr/hubs"></script>
+</head>
+
+<script>
+    $(function () {
+        // With the generated proxy
+        // Create Hub Proxy
+        var broadcastHub = $.connection.BroadcastHub;
+        
+        // 註冊給伺服端呼叫的方法
+        broadcastHub.client.showmessage = function (name, message) {
+            $('#messages').append('<li><strong>' + htmlEncode(name) + '</strong>: ' + htmlEncode(message) + '</li>');
+        };
+
+        // 連線到 SignalR 伺服器
+        $.connection.hub.start()
+            .done(function () {
+                // 註冊連線成功後要執行的作業
+                $('#sendmessage').click(function () {
+                    broadcastHub.server.broadcast($('#name').val(), $('#message').val());
+                });
+            });
+    });
+
+    function htmlEncode(value) {
+        var encodedValue = $('<div />').text(value).html();
+        return encodedValue;
+    }
+</script>
