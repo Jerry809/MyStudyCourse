@@ -23,7 +23,7 @@ namespace ConsoleApplication1
             //var host = Dns.GetHostAddresses("awzeus.vw.local");
             List<SqlParameter> sqlParameterList = new List<SqlParameter>();
             sqlParameterList.Add(new SqlParameter("@statement", "select 2"));
-            using (SqlConnection conn = new SqlConnection("Data Source=13192F30058\\SQLEXPRESS;Initial Catalog=VW; Persist Security Info = True; User ID = sa; Password = Abc12341234"))
+            using (SqlConnection conn = new SqlConnection("Data Source=3192F30058\\SQLEXPRESS;Initial Catalog=VW; Persist Security Info = True; User ID = sa; Password = Abc12341234"))
             {
                 using (SqlCommand cmd = new SqlCommand())
                 {
