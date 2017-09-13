@@ -57,10 +57,7 @@ namespace ConsoleApplication1
                         Console.ReadLine();
                         var num = ex.Number;
                         throw ex;
-                    }
-                    
-
-
+                    }     
                 }
             }
 
