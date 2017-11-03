@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yield_Course", "Yield_Course\Yield_Course.csproj", "{44E0F8C5-EB7F-4AE8-A80A-0C074532D371}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{1AE12630-7719-4804-A7BB-D51576C883C0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRCourse", "SignalRCourse\SignalRCourse.csproj", "{C765EC15-ADFF-4B08-B585-38635BE09240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Slack_Course", "Log4Slack_Course\Log4Slack_Course.csproj", "{E5491803-AAEE-4488-83C9-49D8C317D4CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,8 +59,15 @@ Global
 		{C765EC15-ADFF-4B08-B585-38635BE09240}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C765EC15-ADFF-4B08-B585-38635BE09240}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C765EC15-ADFF-4B08-B585-38635BE09240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5491803-AAEE-4488-83C9-49D8C317D4CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5491803-AAEE-4488-83C9-49D8C317D4CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5491803-AAEE-4488-83C9-49D8C317D4CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5491803-AAEE-4488-83C9-49D8C317D4CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10EE9E68-47AB-4DDE-8467-CC7D2E9D9AC3}
 	EndGlobalSection
 EndGlobal
