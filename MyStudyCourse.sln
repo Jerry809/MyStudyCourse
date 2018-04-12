@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRCourse", "SignalRCou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Slack_Course", "Log4Slack_Course\Log4Slack_Course.csproj", "{E5491803-AAEE-4488-83C9-49D8C317D4CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateLab", "DelegateLab\DelegateLab.csproj", "{2FAA3CF4-19DF-438C-8BC6-5F9CA4FBB9E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{E5491803-AAEE-4488-83C9-49D8C317D4CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5491803-AAEE-4488-83C9-49D8C317D4CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5491803-AAEE-4488-83C9-49D8C317D4CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FAA3CF4-19DF-438C-8BC6-5F9CA4FBB9E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FAA3CF4-19DF-438C-8BC6-5F9CA4FBB9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FAA3CF4-19DF-438C-8BC6-5F9CA4FBB9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FAA3CF4-19DF-438C-8BC6-5F9CA4FBB9E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
