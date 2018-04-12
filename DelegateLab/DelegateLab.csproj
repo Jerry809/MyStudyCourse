@@ -46,6 +46,7 @@
     <Compile Include="CaculateMinus.cs" />
     <Compile Include="CaculateDivision.cs" />
     <Compile Include="CaculatePlus.cs" />
+    <Compile Include="Delegate\FuncDelegate.cs" />
     <Compile Include="ICalulate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
